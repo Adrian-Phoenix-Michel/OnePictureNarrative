@@ -57,4 +57,21 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="previewtext">Rain in a Garden; is a detective story about a botanist that meet his tragic end.</string>
+    <string name="previewimage">previewImage</string>
+    <string name="previewtitle">Rain in a Garden</string>
+    <string name="previewinfo">Posted on 20.05.2020 - by User001</string>
+    <string name="previewtext2">The story of fred and his fascination with astronomy.</string>
+    <string name="previewimage2">previewImage</string>
+    <string name="previewtitle2">Starhunting</string>
+    <string name="previewinfo2">Posted on 20.05.2020 - by User002</string>
+    <string name="previewinfo3">Posted on 20.05.2020</string>
+    <string name="favoritenum">10</string>
+    <string name="user001">User001</string>
+    <string name="profile">Profile</string>
+    <string name="myface">myFace</string>
+    <string name="male_18">Male, 18</string>
+    <string name="my_stories_narratives">My Stories/Narratives</string>
+    <string name="share">share</string>
+    <string name="create_your_story_narrative">Create your Story/Narrative</string>
 </resources>

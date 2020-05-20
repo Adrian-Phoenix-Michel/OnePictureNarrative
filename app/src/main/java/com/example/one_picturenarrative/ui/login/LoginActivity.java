@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
 
-    @Override
+    /*@Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
@@ -56,7 +56,7 @@ public class LoginActivity extends AppCompatActivity {
                         .navigate(R.id.action_loginActivity_to_homeActivity);
             }
         });
-    }
+    }*/
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
