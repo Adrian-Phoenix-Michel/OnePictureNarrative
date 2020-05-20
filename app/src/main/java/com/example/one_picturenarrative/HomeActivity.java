@@ -1,13 +1,17 @@
 package com.example.one_picturenarrative;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
 
+import com.example.one_picturenarrative.ui.login.LoginActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
+import androidx.core.view.GravityCompat;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -39,7 +43,7 @@ public class HomeActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.menu_stories, R.id.menu_creation, R.id.menu_profile, R.id.menu_settings, R.id.menu_signoff)
+                R.id.menu_stories, R.id.menu_create, R.id.menu_profile, R.id.menu_settings, R.id.menu_signoff)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -61,5 +65,40 @@ public class HomeActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        int id=item.getItemId();
 
+        if
+
+    @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        int id=item.getItemId();
+        switch (id){
+            case R.id.menu_stories:
+                Intent stories= new Intent(HomeActivity.this, HomeActivity.class);
+                startActivity(stories);
+                break;
+            case R.id.menu_create:
+                Intent create= new Intent(HomeActivity.this, CreationActivity.class);
+                startActivity(create);
+                break;
+            case R.id.menu_profile:
+                Intent profile= new Intent(HomeActivity.this, ProfileActivity.class);
+                startActivity(profile);
+                break;
+            case R.id.menu_settings:
+                Intent settings= new Intent(HomeActivity.this, SettingsActivity.class);
+                startActivity(settings);
+                break;
+            case R.id.menu_signoff:
+                Intent signoff= new Intent(HomeActivity.this, LoginActivity.class);
+                startActivity(signoff);
+                break;
+        }
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
+    }
 }

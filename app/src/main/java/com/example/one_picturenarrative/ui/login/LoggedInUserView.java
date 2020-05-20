@@ -1,5 +1,9 @@
 package com.example.one_picturenarrative.ui.login;
 
+import android.content.Intent;
+
+import com.example.one_picturenarrative.HomeActivity;
+
 /**
  * Class exposing authenticated user details to the UI.
  */

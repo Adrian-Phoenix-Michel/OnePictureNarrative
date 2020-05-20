@@ -4,8 +4,10 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import android.content.Intent;
 import android.util.Patterns;
 
+import com.example.one_picturenarrative.HomeActivity;
 import com.example.one_picturenarrative.data.LoginRepository;
 import com.example.one_picturenarrative.data.Result;
 import com.example.one_picturenarrative.data.model.LoggedInUser;

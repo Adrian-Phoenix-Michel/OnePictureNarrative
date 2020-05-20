@@ -1,8 +1,8 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <item name="menu_settings" type="id" />
     <!-- Strings related to login -->
     <item name="menu_stories" type="id" />
-    <item name="menu_creation" type="id" />
+    <item name="menu_create" type="id" />
     <item name="menu_profile" type="id" />
     <item name="menu_signoff" type="id" />
     <string name="app_name">One-Picture Narrative</string>
@@ -36,8 +36,8 @@
 
     <!-- Sync Preferences -->
     <string name="title_activity_settings">Settings</string>
-    <string name="messages_header">Messages</string>
-    <string name="sync_header">Sync</string>
+    <string name="app_header">App</string>
+    <string name="account_header">Account</string>
     <string name="signature_title">Your signature</string>
     <string name="reply_title">Default reply action</string>
     <!-- Strings used for fragments for navigation -->
@@ -68,10 +68,14 @@
     <string name="previewinfo3">Posted on 20.05.2020</string>
     <string name="favoritenum">10</string>
     <string name="user001">User001</string>
-    <string name="profile">Profile</string>
+    <string name="profile" tools:ignore="DuplicateDefinition">Profile</string>
     <string name="myface">myFace</string>
     <string name="male_18">Male, 18</string>
     <string name="my_stories_narratives">My Stories/Narratives</string>
     <string name="share">share</string>
     <string name="create_your_story_narrative">Create your Story/Narrative</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="biometric_authentication">Biometric authentication</string>
+    <string name="settings">Settings</string>
+    <string name="profile" tools:ignore="DuplicateDefinition">Profile</string>
 </resources>

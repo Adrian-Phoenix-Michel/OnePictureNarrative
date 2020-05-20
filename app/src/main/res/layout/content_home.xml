@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.one_picturenarrative.HomeActivity"
     tools:showIn="@layout/app_bar_home">
 
     <SearchView
@@ -294,14 +295,5 @@
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
-
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/nav_host_fragment"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="675dp">
-
-    </androidx.fragment.app.FragmentContainerView>
 
 </LinearLayout>
