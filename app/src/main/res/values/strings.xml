@@ -5,11 +5,32 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">(Under Construction)</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_profile">Profile</string>
     <string name="menu_creation">Creation</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_login">Login</string>
 
     <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="dark_mode">Dark Mode</string>
+    <string name="biometric_authentication">Biometric Authentication</string>
+    <string name="username">Username</string>
+    <string name="my_stories_narratives">My Stories/Narratives</string>
+    <string name="previewtitle">Rain in the Garden</string>
+    <string name="previewtext">A detective story about a botanist and his unfortunate demise.</string>
+    <string name="previewprofileinfo">Posted on 20.05.2020</string>
+    <string name="previewinfo1">Posted on 20.05.2020 - by User001</string>
+    <string name="previewtitle2">On a astronomical hunt</string>
+    <string name="previewtext2">A story about a woman that is fascinated about astronomy and making a huge discovery.</string>
+    <string name="previewinfo2">Posted on 20.05.2020 - by User002</string>
+    <string name="comments">10</string>
+    <string name="biography">This is my biography.</string>
+    <string name="gender_age">Gender - Age</string>
+    <string name="write_your_story_narrative">Write your Story/Narrative</string>
 </resources>
