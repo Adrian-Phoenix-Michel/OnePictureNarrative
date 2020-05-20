@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/loginActivity">
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.one_picturenarrative.ui.login.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login">
+        <action
+            android:id="@+id/action_loginActivity_to_homeActivity"
+            app:destination="@id/homeActivity"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit" />
+    </activity>
+
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.example.one_picturenarrative.HomeActivity"
+        android:label="app_bar_home"
+        tools:layout="@layout/app_bar_home" >
+        <action
+            android:id="@+id/action_homeActivity_to_creationActivity"
+            app:destination="@id/creationActivity"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit" />
+        <action
+            android:id="@+id/action_homeActivity_to_settingsActivity"
+            app:destination="@id/settingsActivity"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit" />
+        <action
+            android:id="@+id/action_homeActivity_to_profileActivity"
+            app:destination="@id/profileActivity"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit" />
+    </activity>
+    <activity
+        android:id="@+id/creationActivity"
+        android:name="com.example.one_picturenarrative.CreationActivity"
+        android:label="activity_creation"
+        tools:layout="@layout/activity_creation" />
+    <activity
+        android:id="@+id/profileActivity"
+        android:name="com.example.one_picturenarrative.ProfileActivity"
+        android:label="activity_profile"
+        tools:layout="@layout/activity_profile" />
+    <activity
+        android:id="@+id/settingsActivity"
+        android:name="com.example.one_picturenarrative.SettingsActivity"
+        android:label="SettingsActivity" />
+</navigation>
